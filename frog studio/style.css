@@ -1,0 +1,62 @@
+    body {
+      background-color: #1e1e1e; /* frog night mode 🐸🌙 */
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .giant-text {
+      font-size: 250px;
+      text-align: center;
+      color: green;
+      margin: 0;
+      line-height: 1;
+      position: relative;
+      top: 50%;
+      transform: translateY(-40%);
+    }
+
+    .main-title {
+      text-align: center;
+      color: white;
+      font-size: 2em;
+      margin-top: -10px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+    }
+    .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.frog-button {
+  background-color: #00ff88;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.frog-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #00ff88;
+}
+
+.acid {
+  background-color: #ff0077; /* bright chemical pink 💀💥 */
+}
+
+.frogfast {
+  background-color: #00ff88; /* speed green 🐸💨 */
+}
